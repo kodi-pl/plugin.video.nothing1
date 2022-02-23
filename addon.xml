@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.nothing1" version="0.0.2" name="nothing 1" provider-name="rysson">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.libka" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Nothing 1</summary>
+		<description>Really nothing (1)</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
